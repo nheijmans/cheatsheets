@@ -4,11 +4,11 @@ Please feel free to contribute any cool/useful/practical commands or new cheatsh
 chuck full of easy to read cheatsheets. 
 
 ## Current cheatsheets
-1. AWS CLI
-2. VIM
-3. IPTables
-5. TCPDump
-6. TMUX
-7. Wireshark
-8. NFDump
-9. Encoding & Decoding
+* AWS CLI
+* Encoding & Decoding 
+* IPTables
+* NFDump
+* TCPDump
+* TMUX
+* VIM
+* Wireshark
