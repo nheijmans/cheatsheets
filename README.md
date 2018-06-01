@@ -7,11 +7,8 @@ chuck full of easy to read cheatsheets.
 1. AWS CLI
 2. VIM
 3. IPTables
-4. Docker
 5. TCPDump
 6. TMUX
-7. RSync
-8. Wireshark
-9. GIT
-10. NFDump
-11. Encoding & Decoding
+7. Wireshark
+8. NFDump
+9. Encoding & Decoding
