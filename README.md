@@ -4,9 +4,9 @@ Please feel free to contribute any cool/useful/practical commands or new cheatsh
 chuck full of easy to read cheatsheets. 
 
 ## Current cheatsheets
-* aws cli
-* encoding & decoding 
-* iptables
-* nfdump
-* vim
-* Wireshark
+* [aws cli](https://github.com/nheijmans/cheatsheets/blob/master/awscli.md)
+* [encoding & decoding](https://github.com/nheijmans/cheatsheets/blob/master/encoding_decoding.md)
+* [iptables](https://github.com/nheijmans/cheatsheets/blob/master/iptables.md)
+* [nfdump](https://github.com/nheijmans/cheatsheets/blob/master/nfdump.md)
+* [vim](https://github.com/nheijmans/cheatsheets/blob/master/vim.md)
+* [Wireshark](https://github.com/nheijmans/cheatsheets/blob/master/wireshark.md)
