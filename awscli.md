@@ -3,7 +3,29 @@
 ```aws --profile $profilename --region $regionname ec2 import-key-pair --key-name $keyname --public-key-material file://path/to/pub/key```
 
 #### Change Route53 record sets for API gateway
-``` aws route53 change-resource-record-sets --hosted-zone-id Z1UJRXOUMOOFQ8 --change-batch file://setup-dns-record.json ```
+``` aws route53 change-resource-record-sets --hosted-zone-id $yourdomainhostedzoneid --change-batch file://setup-dns-record.json ```
+
+example dns record
+```
+{
+  "Comment": "alias api gateway to custom domain",
+  "Changes": [
+    {
+      "Action": "UPSERT",
+      "ResourceRecordSet": {
+        "Name": "api.example.com",
+        "Type": "A",
+        "AliasTarget": {
+          "HostedZoneId": "$apigatewayhostedzoneid",
+          "DNSName": "yourapigateway.execute-api.us-west-1.amazonaws.com",
+          "EvaluateTargetHealth": false
+        }
+      }
+    }
+  ]
+}
+
+```
 
 #### Additional reading
 https://forums.aws.amazon.com/thread.jspa?threadID=269585&tstart=0
