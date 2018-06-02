@@ -2,6 +2,11 @@
 #### Add pub key to profile & region
 ```aws --profile $profilename --region $regionname ec2 import-key-pair --key-name $keyname --public-key-material file://path/to/pub/key```
 
+### EC2
+#### List security groups per instance ID
+```aws --output text ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,NetworkInterfaces[*].Groups[*]]' ```
+
+### Route53
 #### Change Route53 record sets for API gateway
 ``` aws route53 change-resource-record-sets --hosted-zone-id $yourdomainhostedzoneid --change-batch file://setup-dns-record.json ```
 
