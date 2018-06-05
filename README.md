@@ -6,6 +6,7 @@ chuck full of easy to read cheatsheets.
 ## Current cheatsheets
 * [aws cli](https://github.com/nheijmans/cheatsheets/blob/master/awscli.md)
 * [encoding & decoding](https://github.com/nheijmans/cheatsheets/blob/master/encoding_decoding.md)
+* [git](https://github.com/nheijmans/cheatsheets/blob/master/git.md)
 * [iptables](https://github.com/nheijmans/cheatsheets/blob/master/iptables.md)
 * [nfdump](https://github.com/nheijmans/cheatsheets/blob/master/nfdump.md)
 * [vim](https://github.com/nheijmans/cheatsheets/blob/master/vim.md)
