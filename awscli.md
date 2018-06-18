@@ -9,9 +9,17 @@
 #### Show the console output from a specific instance
 ```aws ec2 get-console-output --instance-id $instanceid```
 
+
+### Lambda
+#### List Lambda functions
+```aws lambda list-functions```
+
+#### Add or update a Lambda function with a ZIP file
+```aws lambda update-function-code --function-name MyLambdaFunction --zip-file fileb://package.zip```
+
 ### Route53
 #### Change Route53 record sets for API gateway
-``` aws route53 change-resource-record-sets --hosted-zone-id $yourdomainhostedzoneid --change-batch file://setup-dns-record.json ```
+```aws route53 change-resource-record-sets --hosted-zone-id $yourdomainhostedzoneid --change-batch file://setup-dns-record.json```
 
 example dns record
 ```
