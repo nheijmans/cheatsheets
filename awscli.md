@@ -9,6 +9,9 @@
 #### Show the console output from a specific instance
 ```aws ec2 get-console-output --instance-id $instanceid```
 
+#### Copy AMI to different region
+aws ec2 copy-image --source-image-id ami-<id> --source-region us-east-1 --region ap-northeast-1 --name "$ec2_name"
+
 
 ### Lambda
 #### List Lambda functions
