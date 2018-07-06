@@ -50,3 +50,4 @@ example dns record
 https://forums.aws.amazon.com/thread.jspa?threadID=269585&tstart=0
 https://docs.aws.amazon.com/general/latest/gr/rande.html#apigateway_region
 https://blyx.com/2016/03/11/forensics-in-aws-an-introduction/
+https://docs.aws.amazon.com/vm-import/latest/userguide/vmimport-image-import.html
