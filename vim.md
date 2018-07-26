@@ -11,3 +11,6 @@
 ```/mysearchstring\C``` -> case sensitive
 
 ```:vimgrep /mysearchstring\c/ &``` -> case insensitive with vimgrep
+
+#### Append a character to the end of each line
+``` :%s/$/a/g ```
