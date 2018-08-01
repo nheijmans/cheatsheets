@@ -5,6 +5,9 @@
 #### Delete all blank lines
 ``` :g/^$/d ```
 
+#### Delete x number of last characters (3 in example)
+``` :%s/.\{3}$//
+
 #### Search case sensitive/insensitive
 ```/mysearchstring\c``` -> case insensitive
 
