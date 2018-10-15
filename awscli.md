@@ -12,6 +12,22 @@
 #### Copy AMI to different region
 ```aws ec2 copy-image --source-image-id ami-<id> --source-region us-east-1 --region ap-northeast-1 --name "$ec2_name"```
 
+#### Import OVA as AMI
+```aws --profile $your_profile --region $region_to_upload ec2 import-image --description "$your_description" --license-type BYOL --disk-containers file://containers.json --role-name $your_rolename_to_use```
+
+example containers record
+```
+[
+  {
+    "Description": "Your description",
+    "Format": "ova",
+    "UserBucket": {
+        "S3Bucket": "$S3_bucket_you_uploaded_the_ova_to",
+        "S3Key": "$filename.ova"
+    }
+}]
+
+```
 
 ### Lambda
 #### List Lambda functions
