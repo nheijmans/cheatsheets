@@ -5,7 +5,7 @@ chuck full of easy to read cheatsheets.
 
 ## Current cheatsheets
 * [aws cli](https://github.com/nheijmans/cheatsheets/blob/master/awscli.md)
-* [docker] (https://github.com/nheijmans/cheatsheets/blob/master/docker.md)
+* [docker](https://github.com/nheijmans/cheatsheets/blob/master/docker.md)
 * [encoding & decoding](https://github.com/nheijmans/cheatsheets/blob/master/encoding_decoding.md)
 * [git](https://github.com/nheijmans/cheatsheets/blob/master/git.md)
 * [iptables](https://github.com/nheijmans/cheatsheets/blob/master/iptables.md)
