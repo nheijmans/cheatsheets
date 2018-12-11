@@ -1,7 +1,7 @@
 ## Cheatsheet: iptables
 
 #### insert a rule on position 3
-``` iptables -I INPUT 3 -i eth0 -p tcp —dport 22 -j ACCEPT```
+``` iptables -I INPUT 3 -i eth0 -p tcp —-dport 22 -j ACCEPT```
 
 #### append a rule to the chain
 ``` iptables -A INPUT -i eth0 -p tcp --dport 22 -j ACCEPT```
