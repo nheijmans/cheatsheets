@@ -17,3 +17,7 @@
 
 #### Append a character to the end of each line
 ``` :%s/$/a/g ```
+
+#### Autoformat a script
+``` gg=G ```
+
