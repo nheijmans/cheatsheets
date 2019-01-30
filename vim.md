@@ -21,3 +21,8 @@
 #### Autoformat a script
 ``` gg=G ```
 
+#### Select all text
+``` ggVG ```
+
+#### Make something lowercase or uppercase
+``` select all and press: u or U ```
