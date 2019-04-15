@@ -6,6 +6,9 @@
 #### get the hostname
 ``` tshark -r capture.pcap -Y 'dns' -T fields -e ip.host | head ```
 
+#### scope to frames
+```tshark -r capture.pcap -Y 'frame.number > X && frame.number < Y ```
+
 ### HTTP
 #### get all URL’s requested by a system filtered on IP address
 ``` tshark -r capture.pcap -Y 'http and ip.src == ipaddr or ip.dst == ipaddr' -T fields -e ip.src -e ip.dst -e http.request.full_uri -e http.referer -e http.response.code -e http.content_type | less ```
