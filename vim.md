@@ -21,6 +21,9 @@
 #### Autoformat a script
 ``` gg=G ```
 
+#### Format JSON file
+``` :%!python -m json.tool ```
+
 #### Select all text
 ``` ggVG ```
 
