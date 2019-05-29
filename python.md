@@ -7,3 +7,12 @@
 
 #### Allow piping output to tee and save to file while monitoring
 ```python -u <yourscript.py> | tee output.txt```
+
+#### Get datetime string for logging, without milliseconds
+```
+>>> from datetime import datetime
+>>> dt = str(datetime.now())[:-7]
+>>> print(dt)
+'2019-05-28 15:34:37'
+
+```
