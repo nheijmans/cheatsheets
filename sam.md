@@ -1,4 +1,4 @@
-## Cheatsheet: aws SAM (serverless application model)
+# Cheatsheet: aws SAM (serverless application model)
 ## How to ZIP your files for packaging and deploying
 
 ### Zip a single Lambda function folder 
