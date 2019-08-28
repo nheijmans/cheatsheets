@@ -9,7 +9,7 @@
 
 ## Packaging and deploying
 ### Package the template and files to upload to s3 for deployment
-```sam package --profile *yourprofile* --region *yourregion* --template-file template.yaml --s3-bucket *yourbucket* --output-template packaged.yaml
+```sam package --profile *yourprofile* --region *yourregion* --template-file template.yaml --s3-bucket *yourbucket* --output-template packaged.yaml```
 
 ### deploy with cloudformation
 ``` sam deploy --profile yourprofile --template-file packaged.yaml --region yourregion --capabilities CAPABILITY_IAM --stack-name name_of_your_stack```
