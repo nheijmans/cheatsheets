@@ -37,7 +37,7 @@ Macro's are triggered with the syntax ```@a``` where a is of course the keyboard
 
 ```
 Run macro 5 times
-8@a
+5@a
 ```
 
 ```
