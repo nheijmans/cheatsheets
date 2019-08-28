@@ -9,7 +9,7 @@
 SAM package --profile *yourprofile* --region *yourregion* --template-file template.yaml --s3-bucket *yourbucket* --output-template packaged.yaml
 
 ## deploy with cloudformation
-``` sam deploy --profile *yourprofile* --template-file *packaged.yaml* --region *yourregion* --capabilities CAPABILITY_IAM --stack-name *name of your stack*```
+``` sam deploy --profile yourprofile --template-file packaged.yaml --region yourregion --capabilities CAPABILITY_IAM --stack-name name_of_your_stack```
 
 #### Make a layer for SAM to deploy
 The folder structure needs to look like this
@@ -22,7 +22,7 @@ Create layer folder struct:
         └── script_to_import.py
 ```
 
-In the SAM template: *Reference the FOLDER, not the zip*
+In the SAM template: **Reference the FOLDER, not the zip**
 Define the layer in your SAM template
 
 ```
