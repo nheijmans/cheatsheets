@@ -41,6 +41,7 @@ Define the layer in your SAM template
         RetentionPolicy: retain
 ```
 This can be referenced in a function with (YAML style) in your Function:
-``` Layers:
-        - !Ref layerExample
+``` 
+Layers:
+    - !Ref layerExample
 ```
