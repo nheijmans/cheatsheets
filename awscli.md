@@ -3,6 +3,16 @@
 ```aws --profile $profilename --region $regionname ec2 import-key-pair --key-name $keyname --public-key-material file://path/to/pub/key```
 
 ### EC2
+#### Get overview of systems up in your account
+```
+aws ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,State.Name,KeyName,PublicIpAddress,SecurityGroups[0].GroupName]' --output table
+```
+
+#### Get all public IP's of systems with a certain tag
+```
+aws ec2 describe-instances --query 'Reservations[*].Instances[*].[PublicIpAddress]' --output text --filter "Name=tag:**tagkey**,Values=**tagvalue**"
+```
+
 #### List security groups per instance ID
 ```aws --output text ec2 describe-instances --query 'Reservations[*].Instances[*].[InstanceId,NetworkInterfaces[*].Groups[*]]' ```
 
