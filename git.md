@@ -9,3 +9,6 @@
 ``` git fetch upstream ```
 
 ``` git merge upstream/master ```
+
+#### one line readable git log
+``` git log --pretty=format:"%h %s" --graph ```
