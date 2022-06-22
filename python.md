@@ -16,3 +16,9 @@
 '2019-05-28 15:34:37'
 
 ```
+
+#### Re-install pip in a virtual environment
+```
+curl https://bootstrap.pypa.io/get-pip.py -o get-pip.py
+python3 get-pip.py --force-reinstall
+```
