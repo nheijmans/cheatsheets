@@ -75,14 +75,16 @@ Load binary with debug mode and argument
 radare2 -d binary args
 ```
 
-aaa --> analysis of binary
-iz  --> show strings
-s <function> --> go to the function
-pdf --> print function disassembly code
-pdb --> print block of assembly code where the app stands
-db 0x0000 --> add breakpoint on address
-dc --> run application
-dr --> show registers
+| cmd | notes |
+|---|---|
+|aaa | analysis of binary |
+|iz  | show strings |
+|s <function> | go to the function |
+|pdf | print function disassembly code |
+|pdb | print block of assembly code where the app stands |
+|db 0x0000 | add breakpoint on address |
+|dc | run application |
+|dr | show registers |
 
 Get value of register. The int is nr of bytes
 ```
